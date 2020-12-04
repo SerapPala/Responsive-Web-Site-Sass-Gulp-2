@@ -1,0 +1,51 @@
+@media (max-width:768px){
+    html{
+        font-size:53%;
+        header{
+            justify-content: center;
+
+            .menu{
+                display:block;
+            }
+            nav{
+
+                position:fixed;
+                top:0; right:-200%;
+                height:100%;
+                width:70vw;
+                background:#fefefe;
+                box-shadow:-20rem 0 0 10rem rgba(0,0,0,.5);
+
+                ul{
+                    height:100%;
+                    flex-flow:column;
+
+                    li{
+                        a{
+                            color:#000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .nav-toggle{
+        right:0%;
+    }
+    #home{
+        flex-flow:column;
+        justify-content: center;
+
+        .content{
+            text-align:center;
+        }
+
+        .image{
+
+            img{
+                display:none;
+            }
+        }
+    }
+}
+

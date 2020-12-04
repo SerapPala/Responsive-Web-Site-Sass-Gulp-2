@@ -1,0 +1,18 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    transition:all .3s linear;
+    font-family:$secondary-font;
+    font-style:italic;
+   // text-transform: uppercase;
+}
+
+html{
+    font-size:62.5%;
+    scroll-behavior:smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
